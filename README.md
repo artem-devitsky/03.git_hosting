@@ -37,7 +37,7 @@ then {
 		git push -u "${origin}" --all
 	done
 	}
-	else {
+else {
 		red_echo "No git in system"
 		no_echo
 	}
